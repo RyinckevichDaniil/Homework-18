@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <form id = "todo_form" action="">
+        <div id = "info_wrapp">
+            <input id = "info_field" type="text" name="todo" placeholder="What to do?">
+        </div>
+        <div id="submit_btn_wrapp" class="btn_todo">
+            <button type="submit" name="submit" class="btn">Add new item</button>
+        </div>
+        <div id="remove_btn_wrapp" class="btn_todo">
+            <button type = "button" id="hide_btn" class="btn">Hide done items</button>
+        </div>
+    </form>
+
+    <ul class="todo_list"></ul>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
